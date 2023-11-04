@@ -54,7 +54,7 @@ nav .navbar .logo a{
   font-family: "poppins" sans-serif;
 }
 nav.sticky .navbar .logo a{
-  color: #fff;
+  color: gold;
 }
 nav .navbar .menu{
   display: flex;
@@ -75,7 +75,7 @@ nav .navbar .menu li{
   color: #4070f4;
 }
 nav.sticky .menu a{
-  color: #FFF;
+  color: gold;
 }
 nav.sticky .menu a:hover{
   color: #0E2431;
@@ -86,7 +86,7 @@ nav.sticky .menu a:hover{
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
-  color: #FFF;
+  color: gold;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -458,7 +458,7 @@ footer .text span a:hover{
   nav .navbar .menu a{
     font-size: 23px;
     display: block;
-    color: #fff;
+    color: #0E2431;
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
