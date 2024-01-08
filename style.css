@@ -33,7 +33,6 @@ nav{
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
   background: transparent;
-  backdrop-filter: blur(20px);
 }
 nav.sticky{
   background: transparent;
