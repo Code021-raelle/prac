@@ -453,6 +453,7 @@ footer .text span a:hover{
     flex-direction: column;
     align-items: center;
     transition: all 0.5s ease;
+    backdrop-filter: blur(20px);
   }
   .navbar.active .menu{
     left: 0;
