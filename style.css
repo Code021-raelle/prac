@@ -33,7 +33,6 @@ nav{
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
   background: transparent;
-  backdrop-filter: blur(20px);
 }
 nav.sticky{
   background: transparent;
@@ -54,7 +53,7 @@ nav .navbar .logo a{
   font-family: "poppins" sans-serif;
 }
 nav.sticky .navbar .logo a{
-  color: #fff;
+  color: #4070f4;
 }
 nav .navbar .menu{
   display: flex;
@@ -67,26 +66,29 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #4070f4;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #0E2431;
 }
 nav.sticky .menu a{
-  color: #FFF;
+  color: #4070f4;
 }
 nav.sticky .menu a:hover{
   color: #0E2431;
 }
+nav.sticky .menu a:after{
+  color: #0E2431;
+}  
 .navbar .media-icons a{
   color: #4070f4;
   font-size: 18px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
-  color: #FFF;
+  color: #4070f4;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -131,10 +133,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #24a3ec;
 }
 .home .text-two{
-  color: #0E2431;
+  color: #24a3ec;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -147,7 +149,7 @@ nav.sticky .menu-btn{
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: #24a3ec;
 }
 .home .button{
   margin: 14px 0;
@@ -451,6 +453,10 @@ footer .text span a:hover{
     flex-direction: column;
     align-items: center;
     transition: all 0.5s ease;
+    backdrop-filter: blur(20px);
+  }
+  nav.sticky{
+    backdrop-filter: blur(20px);
   }
   .navbar.active .menu{
     left: 0;
